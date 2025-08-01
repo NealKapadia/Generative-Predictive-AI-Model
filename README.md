@@ -37,20 +37,6 @@ This repository contains the code and data for the generative-predictive AI pipe
 - **Process**: Iterative fine-tuning with top-scoring molecules
 - **Output**: Novel molecular structures with high predicted CE
 
----
-
-## Interactive Visualizations
-
-### Feature Importance
-The feature selection pipeline identifies the most important molecular descriptors for CE prediction. Visualizations include:
-- Spearman correlation ranking
-- SHAP (SHapley Additive exPlanations) values
-- Boruta and RFE (Recursive Feature Elimination) selections
-
-### SHAP Summary Plot
-![SHAP Summary](generative_model_output/shap_summary_xgb.png)
-
----
 
 ## How to Use This Repository
 
