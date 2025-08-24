@@ -84,10 +84,5 @@ This repository contains the code and data for the generative-predictive AI pipe
 
 ---
 
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
-
 ## Acknowledgments
-This work was supported by [Your Institution/Grant Information]. Special thanks to the developers of RDKit, Mordred, and xTB for their invaluable tools.
+This work was supported by The University of Texas at Dallas and the Su Lab.
