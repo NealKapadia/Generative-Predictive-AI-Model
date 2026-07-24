@@ -8,14 +8,13 @@ This project introduces a pipeline leveraging generative Artificial Intelligence
 ---
 
 ## Repository Overview
-This repository contains the code and data for the generative-predictive AI pipeline described above. The project is organized into the following directories:
+This repository contains the code and data for the Moler_recursive_workflow AI pipeline described above. The project is organized into the following directories:
 
 - **`density_functional_theory_of_molecules/`**: Contains `.log` and `.xyz` files for molecular simulations and Density Functional Theory (DFT) calculations.
-- **`feature_engineering_code/`**: Python scripts for feature extraction, including RDKit, Mordred, and xTB descriptors.
+- **`feature_engineering_code/`**: Python scripts for feature extraction, including RDKit, Mordred, and xTB descriptors. It contains the input files required to run the files and the output files
 - **`generative_model_code/`**: Code for the MoLeR generative model, used to propose novel molecular structures.
 - **`generative_model_output/`**: Outputs from the generative model, including proposed molecules and their predicted CE scores.
-- **`predictive_model_code/`**: Machine learning models for CE prediction, including feature selection and model training pipelines.
-- **`predictive_model_output/`**: Outputs from the predictive model, including performance metrics and predictions for novel molecules.
+- **`predictive_model_code/`**: Machine learning models for CE prediction, including feature selection and model training pipelines. It contains the **`predictive_model_output/`**: Outputs from the predictive model, including performance metrics and predictions for novel molecules.
 
 ---
 
@@ -29,7 +28,7 @@ This repository contains the code and data for the generative-predictive AI pipe
 ### 2. **Predictive Modeling**
 - **Model**: HistGB (Histogram-based Gradient Boosting)
 - **Optimization**: Bayesian optimization with Optuna
-- **Performance**: Cross-validated R2 of 0.82
+- **Performance**: Cross-validated R2 of 0.74
 - **Example**: The `predictive_model_code` directory contains scripts for feature selection, model training, and evaluation.
 
 ### 3. **Generative Modeling**
@@ -78,6 +77,7 @@ This repository contains the code and data for the generative-predictive AI pipe
 ---
 
 ## Authors
+- Supraja Garnaik
 - Neal Kapadia
 - Jiaqi Ke
 - Laisuo Su*
